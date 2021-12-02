@@ -15,8 +15,3 @@ function render() {
     ul.appendChild(li);
   });
 }
-function apagar() {
-  ul.innerHTML = null;
-  li.innerText = null;
-  render();
-}
