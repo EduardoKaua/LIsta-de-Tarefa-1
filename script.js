@@ -3,7 +3,7 @@ const ul = document.getElementById("ul");
 const tarefa = [];
 
 function add() {
-  tarefa.push(input.value);
+  if (input.value != "") tarefa.push(input.value);
   input.value = "";
   render();
 }
@@ -15,3 +15,7 @@ function render() {
     ul.appendChild(li);
   });
 }
+
+document.querySelector("ul").addEventListener("click", (e) => {
+  if (e.target.tagName === "LI") e.target.classList.toggle("checked");
+});
