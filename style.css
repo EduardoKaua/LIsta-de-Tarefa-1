@@ -22,10 +22,11 @@ body {
 }
 #ul {
   background-color: blanchedalmond;
+  border: solid 3px rgb(49, 37, 19);
   width: 370px;
   text-align: left;
   padding: 20px;
-  font-size: 17px;
+  font-size: 3vh;
   color: rgb(0, 0, 0);
   margin: 10px;
   height: 400px;
