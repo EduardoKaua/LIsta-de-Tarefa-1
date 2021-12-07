@@ -32,7 +32,7 @@ body {
   height: 400px;
 }
 button:hover {
-  background-color: rgb(28, 170, 235);
+  background-color: rgb(201, 231, 245);
   border: 3px rgb(255, 255, 255);
   border-radius: 2px;
   cursor: pointer;

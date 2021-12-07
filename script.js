@@ -4,7 +4,7 @@ const tarefa = [];
 
 function add() {
   if (!input.value) {
-    alert("Sem tarefa para adicionar");
+    alert("Nenhuma tarefa foi encontrada");
   } else {
     tarefa.push(input.value);
     input.value = "";
@@ -17,9 +17,13 @@ function render() {
     const li = document.createElement("li");
     li.innerText = i;
     ul.appendChild(li);
+    const button = document.createElement("button");
+    button.innerHTML = "X";
+    button.addEventListener("click", function () {
+      const index = tarefa.indexOf(tarefa);
+      tarefa.splice(index, 1);
+      render();
+    });
+    li.appendChild(button);
   });
 }
-
-document.querySelector("ul").addEventListener("click", (e) => {
-  if (e.target.tagName === "LI") e.target.classList.toggle("checked");
-});
