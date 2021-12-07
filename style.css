@@ -32,7 +32,7 @@ body {
   height: 400px;
 }
 button:hover {
-  background-color: rgb(235, 28, 28);
+  background-color: rgb(28, 170, 235);
   border: 3px rgb(255, 255, 255);
   border-radius: 2px;
   cursor: pointer;
@@ -44,7 +44,7 @@ button:hover {
 }
 
 #l {
-  color: rgb(0, 0, 0);
+  color: rgb(87, 83, 83);
 }
 li {
   background-color: rgb(210, 210, 218);
@@ -54,5 +54,5 @@ li {
 }
 li:hover {
   transition-duration: 0.18s;
-  background-color: rgb(41, 123, 148);
+  background-color: rgb(98, 175, 199);
 }
