@@ -6,24 +6,24 @@
 }
 
 body {
-  background-color: rgb(88, 153, 3);
+  background-color: rgb(119, 255, 178);
   min-height: 50vh;
   display: grid;
   place-items: center;
 }
 .container {
-  background-color: yellow;
+  background-color: rgb(128, 111, 223);
   margin: 20px;
   height: 600px;
   font-size: 4vh;
   color: rgb(0, 0, 0);
   padding: 10px;
-  box-shadow: 5px 10px 18px rgb(146, 20, 20);
+  box-shadow: 5px 10px 18px rgb(181, 248, 217);
 }
 #ul {
+  overflow: auto;
   background-color: blanchedalmond;
-  border: solid 3px rgb(49, 37, 19);
-  width: 370px;
+  border: solid 3px rgb(31, 23, 12);
   text-align: left;
   padding: 20px;
   font-size: 3vh;
@@ -41,4 +41,18 @@ button:hover {
 .checked {
   text-decoration: line-through;
   color: rgb(56, 56, 51);
+}
+
+#l {
+  color: rgb(0, 0, 0);
+}
+li {
+  background-color: rgb(210, 210, 218);
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 2vh;
+}
+li:hover {
+  transition-duration: 0.18s;
+  background-color: rgb(41, 123, 148);
 }
