@@ -33,6 +33,7 @@ body {
 }
 button:hover {
   background-color: rgb(181, 217, 231);
+  padding: 3px;
   border: 3px rgb(255, 255, 255);
   border-radius: 2px;
   cursor: pointer;
@@ -55,4 +56,16 @@ li {
 li:hover {
   transition-duration: 0.18s;
   background-color: rgb(98, 175, 199);
+}
+
+input {
+  padding: 3px;
+  position: relative;
+  left: 9px;
+}
+button {
+  width: 50px;
+  padding: 3px;
+  position: relative;
+  left: 10px;
 }
