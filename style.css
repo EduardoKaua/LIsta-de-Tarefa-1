@@ -3,38 +3,51 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
-  background-color: rgb(119, 255, 178);
+  background-color: #fdfbf6;
   min-height: 50vh;
   display: grid;
   place-items: center;
 }
 .container {
-  background-color: rgb(128, 111, 223);
-  margin: 20px;
-  height: 600px;
+  background-color: #D9D9D9;
+  text-align: center;
+  border: solid 1px black ;
+  margin: 5%;
+  height: 523.04px;
+  width: 55vh;
   font-size: 4vh;
   color: rgb(0, 0, 0);
   padding: 10px;
-  box-shadow: 8px 10px 20px rgb(181, 248, 217);
+  border-radius: 10px;
+
 }
 #ul {
   overflow: auto;
-  background-color: rgb(238, 224, 204);
-  border: solid 3px rgb(31, 23, 12);
-  text-align: left;
-  padding: 20px;
+  background-color:#D9D9D9;
+  border: solid 1.5px rgb(31, 23, 12);
   font-size: 3vh;
   color: rgb(0, 0, 0);
-  margin: 10px;
-  height: 400px;
+  margin: 20px;
+  margin-top: 100px;
+  height: 250px;
+  border-radius: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0px;
+  text-align: left;
+ 
 }
-button:hover {
-  background-color: rgb(181, 217, 231);
-  padding: 3px;
-  border: 3px rgb(255, 255, 255);
+#ul:hover{
+
+}
+.bt:hover {
+  transition-duration:0.5s;
   border-radius: 2px;
   cursor: pointer;
 }
@@ -45,27 +58,44 @@ button:hover {
 }
 
 #l {
+  margin-top: 10px;
   color: rgb(19, 17, 17);
+  font-size: 18px;
+  font: bold;
 }
 li {
-  background-color: rgb(210, 210, 218);
   border-radius: 3px;
   padding: 5px 10px;
-  margin: 2vh;
+
 }
 li:hover {
   transition-duration: 0.18s;
-  background-color: rgb(98, 175, 199);
+  
 }
 
 input {
-  padding: 3px;
+  background-color: rgb(112, 109, 109);
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 17px;
   position: relative;
-  left: 9px;
+  top: 10%;
+  right: 20px;
 }
-button {
+.bt {
+  transition-duration:0.5s;
+  font-family: bold;
+  font-size: 20px;
   width: 50px;
-  padding: 3px;
+  padding: 10px;
   position: relative;
   left: 10px;
+  top: 10%;
+  border-radius: 10px;
+  border: solid 1px;
+}
+button {
+  position: absolute;
+  left: 58%;
+  box-shadow: rgb(128, 124, 124) 3px 3px 0px 0px;
 }
