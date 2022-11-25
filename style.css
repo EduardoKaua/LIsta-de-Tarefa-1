@@ -43,9 +43,6 @@ body {
   text-align: left;
  
 }
-#ul:hover{
-
-}
 .bt:hover {
   transition-duration:0.5s;
   border-radius: 2px;
@@ -64,8 +61,9 @@ body {
   font: bold;
 }
 li {
-  border-radius: 3px;
+  border-bottom: solid 2px rgb(102, 101, 101) ;
   padding: 5px 10px;
+  background-color: #bbbbbb;
 
 }
 li:hover {
@@ -75,12 +73,16 @@ li:hover {
 
 input {
   background-color: rgb(112, 109, 109);
+  color: #D9D9D9;
   border: solid 1px black;
   border-radius: 10px;
   padding: 17px;
   position: relative;
   top: 10%;
   right: 20px;
+}
+input::placeholder {
+  color: rgb(39, 39, 39);
 }
 .bt {
   transition-duration:0.5s;
@@ -96,6 +98,6 @@ input {
 }
 button {
   position: absolute;
-  left: 58%;
+  left: 59%;
   box-shadow: rgb(128, 124, 124) 3px 3px 0px 0px;
 }
